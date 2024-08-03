@@ -120,9 +120,8 @@ def feedbacker(if_correct):
     win.flip()
     core.wait(FB_TIME)
 
-# Display the instructions
-show_inst(instText)
 
+show_inst(instText) # Display the instructions
 # Iterate over each anagram problem, present it, collect response, and provide feedback
 for problem, answer in anagrams:
     res, restime = presenter(problem)
@@ -130,8 +129,6 @@ for problem, answer in anagrams:
     feedbacker(if_correct)    
     data = "{},{},{},{},{},{},{}\n".format(subID, subAge, problem, answer, res, if_correct, restime)
     datafile.write(data)
-
-# Display the ending text and close the data file and window
-show_inst(endText)
+show_inst(endText) # Display the ending text and close the data file and window
 datafile.close()
 win.close()
