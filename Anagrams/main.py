@@ -24,7 +24,7 @@ new_filepath = current_folder / "datafiles" / new_filename
 
 # Open a file for appending data and write column headers
 datafile = open(new_filepath, mode='a')
-datafile.write('ID,Age,Problem,Answer,Response,ResponseTime\n')
+datafile.write('ID,Age,Problem,Answer,Response,IfCorrect,ResponseTime\n')
 
 # Load anagrams from an Excel file
 anagrams = []
@@ -44,8 +44,8 @@ win = visual.Window(units="norm", fullscr=True, color="#e6e6fa")
 
 # Instruction and ending text
 instText = '''
-Rearrange the letters of the alphabet presented 
-at the top of the screen to make them into a real word.
+Rearrange the letters of the alphabet presented at
+the top of the screen to make them into a real word.
 '''
 endText = "Thank you!!"
 
