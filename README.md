@@ -2,23 +2,29 @@
 
 - Occasionally uploads some self-made psychological experiments programs
 
-## list
+## List
 
 <details>
   <summary>Anagrams</summary>
-  - Based on Psychopy
+
+  - [Check the code](https://github.com/WhatJun/Psychological-experiments/tree/main/Anagrams)
+  - Based on [Psychopy](https://github.com/psychopy/psychopy)
 
 </details>
   
 <details>
   <summary>Delboeuf illusion</summary>
-  - Based on Psychopy
+  
+  - [Check the code](https://github.com/WhatJun/Psychological-experiments/tree/main/Delboeuf%20illusion)
+  - Based on [Psychopy](https://github.com/psychopy/psychopy)
 
 </details>
 
 <details>
   <summary>Stroop effect</summary>
-  - Based on p5.js
+  
+  - [Check the code](https://github.com/WhatJun/Psychological-experiments/tree/main/Stroop%20Effect)
+  - Based on [p5.js](https://github.com/processing/p5.js)
   
 </details>
 
