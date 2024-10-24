@@ -1,3 +1,10 @@
+'''
+Author: WenjunZHU
+Date: 2024/08
+'''
+
+
+
 from psychopy import visual, core, gui, event
 import random
 import numpy as np
