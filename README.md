@@ -1,6 +1,6 @@
 # Psychological experiments
 
-- Occasionally uploads some self-made psychological experiments programs
+- Occasionally uploads some self-made programs of psychological experiment. 
 
 ## List
 
